@@ -26,6 +26,7 @@ while file_count > 0:
         array = img.ras()
         print(array)
 
-        img.save(str(nome) + '.jpg') #salva imagem com nome = numero
+        img.save('prato' + str(nome) + '.jpg') #salva imagem com nome = prato.numero
+        #img.save('errado' + str(nome) + '.jpg') #salva imagem com nome = errado'.numero
         nome = nome+1
         file_count = file_count - 1
