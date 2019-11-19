@@ -113,3 +113,5 @@ img = test_images[0]
 img = (np.expand_dims(img,0))
 predictions_single = model.predict(img)
 plot_value_array(0, predictions_single, test_labels) = plt.xticks(range(10), class_names, rotation=45)
+
+#https://www.tensorflow.org/tutorials/keras/classification
